@@ -3,13 +3,26 @@
 </p>
 <p align="center">
   Juego arcade de naves en pixel art hecho con <b>Python y Pygame</b>.<br>
-
   Esquiva los ataques de 8 tipos de alienígenas, mejora tu arma y sobrevive a 3 oleadas.
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python">
   <img src="https://img.shields.io/badge/Pygame-2.x-green" alt="Pygame">
   <img src="https://img.shields.io/badge/estado-en%20desarrollo-yellow" alt="Estado">
+</p>
+<p align="center">
+  <img src="docs/captura.png" alt="Gameplay de Space Shooter 2D" width="700">
+</p>
+Todo el arte y el sonido se generan por código: no necesita imágenes ni archivos de audio externos.
+ 
+## ⬇️ Descargar y jugar
+ 
+1. Entra a [Releases](https://github.com/kevinquispec-jpg/Space-Shoter-2D/releases).
+2. Descarga el archivo `SpaceShooter2D.zip`.
+3. Descomprímelo y haz doble clic en `SpaceShooter2D.exe`.
+> Solo para Windows. Si aparece "Windows protegió su PC", haz clic en **Más información > Ejecutar de todas formas**. Es una falsa alarma, porque el juego no está firmado digitalmente.
+ 
+Si prefieres ejecutarlo desde el código, mira la sección de [instalación](#️-instalación-y-ejecución).
  
 ## ✨ Características
  
