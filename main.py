@@ -23,7 +23,7 @@ SR = 22050
 pygame.mixer.pre_init(SR, -16, 1, 512)
 pygame.init()
 pantalla = pygame.display.set_mode((ANCHO, ALTO))
-pygame.display.set_caption("Space Shooter")
+pygame.display.set_caption("Space Shooter 2D")
 reloj = pygame.time.Clock()
 
 
@@ -752,6 +752,9 @@ def nuevo_juego():
 
 
 def main():
+    pygame.display.set_icon(pygame.transform.scale(
+        construir_sprite(NAVE_MITAD, COLORES_NAVE, ESCALA_NAVE), (32, 32)))
+
     estado = "inicio"
     nave, aliens, oleada, banner = nuevo_juego()
     esperando, pausa = False, 0.0
@@ -776,7 +779,6 @@ def main():
                         nave.nivel_arma = 2
                     elif evento.key == pygame.K_3:
                         nave.nivel_arma = 3
-
         tiempo = pygame.time.get_ticks()
 
         if estado == "inicio":
