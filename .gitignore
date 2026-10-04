@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+
+# PyInstaller (carpetas y archivos generados al crear el .exe)
+build/
+dist/
+*.spec
